@@ -1,0 +1,6 @@
+nav {
+  display: grid;
+  gap: 1rem;
+  place-items: center center;
+  grid-template-columns: repeat(3, 1fr);
+}

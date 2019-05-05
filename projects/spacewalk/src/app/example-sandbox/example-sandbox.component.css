@@ -1,4 +1,9 @@
 .sandbox {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 500px 800px;
+
+
   background-color: gold;
   padding: 20px;
 }
@@ -9,6 +14,7 @@
 }
 
 .heading {
+  grid-column: span 2;
   font-size: 200%;
   font-weight: bold;
 }
@@ -17,9 +23,12 @@
 }
 
 .bob {
+  grid-column-start: 1;
+  grid-row-start: 2;
   width: 100%;
 }
 
 .footer {
+  grid-column: span 2;
 }
 

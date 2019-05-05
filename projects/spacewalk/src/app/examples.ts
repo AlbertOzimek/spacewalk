@@ -12,6 +12,7 @@ import { ExampleSandboxComponent      } from './example-sandbox/example-sandbox.
 import { ExampleSpanningComponent     } from './example-spanning/example-spanning.component';
 import { ExampleTransformComponent    } from './example-transform/example-transform.component';
 import { ExampleVideoViewerComponent  } from './example-video-viewer/example-video-viewer.component';
+import {LearnGermanComponent} from './learn-german/learn-german.component';
 
 export const examples = [
   { path: 'example-centering',      component: ExampleCenteringComponent    },
@@ -28,4 +29,5 @@ export const examples = [
   { path: 'example-transform',      component: ExampleTransformComponent    },
   { path: 'example-full-viewport',  component: ExampleFullViewportComponent },
   { path: 'example-video-viewer',   component: ExampleVideoViewerComponent  },
+  { path: 'learn-german',           component: LearnGermanComponent },
 ];

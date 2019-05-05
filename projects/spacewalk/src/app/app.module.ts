@@ -17,6 +17,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 
 import { examples } from './examples';
 import { workshops } from './workshops';
+import { LearnGermanComponent } from './learn-german/learn-german.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { workshops } from './workshops';
     VideoPlayerComponent,
     VideoThumbnailComponent,
     WelcomeComponent,
+    LearnGermanComponent,
   ],
   imports: [
     BrowserModule,

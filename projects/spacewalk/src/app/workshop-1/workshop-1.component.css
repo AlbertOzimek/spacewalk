@@ -1,11 +1,34 @@
-.sandbox {
+:host{
   background-color: lightblue;
-  padding: 20px;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template:
+  " header  header "
+  " carl    main   "
+  " footer  footer "
+  / 1fr     4fr
 }
 
-.sandbox > * {
+:host > * {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.carl {
+  grid-area: carl;
 }
 
 img {
